@@ -1,0 +1,7 @@
+{
+  "name": "TinA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
