@@ -1,0 +1,80 @@
+# Dependencies (restore with the project's package manager)
+**/node_modules/
+**/vendor/
+
+# Local environment and secrets
+**/.env
+**/.env.*
+!**/.env.example
+!**/.env.sample
+
+# Frontend/backend build output
+**/dist/
+**/build/
+**/out/
+**/coverage/
+**/.cache/
+**/.vite/
+**/.vitest-cache/
+**/.parcel-cache/
+**/.next/
+**/.nuxt/
+**/.output/
+
+# Android generated/local files
+**/.gradle/
+**/local.properties
+**/captures/
+**/*.apk
+**/*.aab
+
+# Tests and local QA artifacts (not required at runtime)
+FE/tests/
+FE/cypress/
+FE/cypress.config.*
+FE/design-qa.md
+FE/skills/
+**/cypress/screenshots/
+**/cypress/videos/
+
+# Logs and temporary files
+**/*.log
+**/*.err
+**/*.tmp
+**/*.temp
+**/*.pid
+**/.tmp/
+**/tmp/
+**/temp/
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Editor and operating-system files
+**/.idea/
+**/.vscode/
+**/*.iml
+**/*.swp
+**/*.swo
+**/*~
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+
+# Python backend artifacts
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+**/.venv/
+**/venv/
+
+# Java/.NET backend artifacts
+**/target/
+**/bin/
+**/obj/
+
+# Preserve the previous nested FE repository if it is backed up here
+.fe-git-backup/
